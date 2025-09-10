@@ -5,7 +5,7 @@ module.exports = [
     name: 'strapi::cors',
     config: {
       enabled: true,
-      origin: ['http://localhost:5173'], // هنا لينك الفرونت
+      origin: ['https://modivo.vercel.app'], // هنا لينك الفرونت
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     },
   },
